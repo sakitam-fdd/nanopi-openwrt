@@ -36,6 +36,11 @@ merge_package https://github.com/project-lede/luci-app-godproxy
 merge_package https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-wolplus
 merge_package https://github.com/kuoruan/openwrt-frp frp
 merge_package https://github.com/kuoruan/luci-app-frpc
+
+# npc
+merge_package https://github.com/kiddin9/openwrt-packages/trunk/npc
+merge_package https://github.com/kiddin9/openwrt-packages/trunk/luci-app-npc
+
 merge_package https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav
 merge_package https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav
 merge_package https://github.com/jerrykuku/luci-app-jd-dailybonus
