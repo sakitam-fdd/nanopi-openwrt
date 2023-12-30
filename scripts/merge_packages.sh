@@ -26,6 +26,11 @@ rm -r package/feeds/nas_luci/luci-app-ddnsto
 merge_feed helloworld "https://github.com/stupidloud/helloworld;tmp"
 merge_package https://github.com/ilxp/luci-app-ikoolproxy luci-app-ikoolproxy
 merge_package https://github.com/sundaqiang/openwrt-packages openwrt-packages/luci-app-wolplus
+
+# npc
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/nps
+merge_package https://github.com/kiddin9/openwrt-packages openwrt-packages/luci-app-npc
+
 merge_package https://github.com/messense/aliyundrive-webdav aliyundrive-webdav/openwrt/aliyundrive-webdav
 merge_package https://github.com/messense/aliyundrive-webdav aliyundrive-webdav/openwrt/luci-app-aliyundrive-webdav
 merge_package "-b 18.06 https://github.com/jerrykuku/luci-theme-argon" luci-theme-argon
